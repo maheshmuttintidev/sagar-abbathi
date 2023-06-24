@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <title>Lokesh Doppasani | Lokesh</title>
+      <title>Sagar Abbathi | Sagar</title>
       <head />
       <body>{children}</body>
     </html>

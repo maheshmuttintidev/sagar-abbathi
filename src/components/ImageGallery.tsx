@@ -3,9 +3,9 @@ import { Gallery } from "next-gallery";
 import React from "react";
 
 const images = [
-  { src: "/lokesh_light_and_pure_white_portait.jpg", aspect_ratio: 20 / 24 },
-  { src: "/lokesh_lion_sit_on_chair.jpg", aspect_ratio: 12 / 10 },
-  { src: "/lokesh_stylish_with_camera.jpg", aspect_ratio: 16 / 16 },
+  { src: "/sagar_kind_version.jpeg", aspect_ratio: 16 / 16 },
+  { src: "/old_handsome_sagar.jpeg", aspect_ratio: 20 / 24 },
+  { src: "/sporty_vibe_sagar.jpeg", aspect_ratio: 12 / 10 },
 ];
 const widths = [500, 1000];
 const ratios = [1, 3];

@@ -3,16 +3,49 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 6rem 0;
   min-height: 100vh;
-  background-image: url('/lokesh_standing_style_in_ceremony_chair.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.8;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #000000 20%,
+      #000000 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #000000 20%,
+        #000000 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(#e9ff56 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #e9ff56 2px, #000000 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
 .marginauto {
   margin: auto;
 }
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 0 0 white;
+  }
+  50% {
+    box-shadow: 0 0 0 20px white;
+  }
+  100% {
+    box-shadow: 0 0 0 0 white;
+  }
+}
+
 
 .fontMono {
   display: inherit;
@@ -32,6 +65,7 @@
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
+  margin-bottom: 64px;
   z-index: 2;
   font-family: var(--font-mono);
 }
@@ -60,7 +94,6 @@
   font-weight: 700;
   font-family: var(--font-mono);
 }
-
 
 .textWrap {
   text-overflow: ellipsis;
